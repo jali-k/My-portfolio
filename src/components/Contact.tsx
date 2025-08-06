@@ -23,7 +23,7 @@ const Contact: React.FC = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+94 76 6934563", "+94 11 234 5678"],
+      details: ["+94 76 6934563"],
     },
     {
       icon: Mail,
@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
     {
       icon: MapPin,
       title: "Address",
-      details: ["Srilanka, Kandy, Peradeniya", "University of Peradeniya"],
+      details: ["Peradeniya, Kandy, Sri Lanka"],
     },
   ];
 

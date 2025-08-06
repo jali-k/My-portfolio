@@ -244,7 +244,7 @@ const Portfolio: React.FC = () => {
             href="#contact"
             className="inline-block bg-gradient-to-r from-primary-500 to-primary-600 text-white px-8 py-4 rounded-lg font-semibold hover:from-primary-600 hover:to-primary-700 transition-all duration-300"
           >
-            Contact Me for More
+            Contact Me for More Info
           </a>
         </motion.div>
       </div>

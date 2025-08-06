@@ -17,7 +17,7 @@ const About: React.FC = () => {
     { icon: Calendar, label: "Birthday", value: "November 03, 2000" },
     { icon: Phone, label: "Phone", value: "+94 76 6934563" },
     { icon: Mail, label: "Email", value: "jaliya.r.kumarasiri@gmail.com" },
-    { icon: MapPin, label: "From", value: "Srilanka, Kandy, Peradeniya" },
+    { icon: MapPin, label: "From", value: "Peradeniya, Kandy, Sri Lanka" },
     { icon: Globe, label: "Language", value: "English, Sinhala" },
     { icon: Briefcase, label: "Freelance", value: "Fulltime with my own team" },
   ];
