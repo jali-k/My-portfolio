@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  * {
+    word-wrap: break-word;
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent;
+  }
+  
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
+}
+
+@layer utilities {
+  @keyframes colorCycle {
+    0%, 100% { border-color: rgb(96 165 250 / 0.3); }
+    50% { border-color: rgb(251 146 60 / 0.3); }
+  }
+  
+  @keyframes colorCycleInner {
+    0%, 100% { border-color: rgb(59 130 246 / 0.4); }
+    50% { border-color: rgb(249 115 22 / 0.4); }
+  }
+  
+  @keyframes colorCycleMain {
+    0%, 100% { border-color: rgb(59 130 246); }
+    50% { border-color: rgb(249 115 22); }
+  }
+  
+  @keyframes shimmerColor {
+    0%, 100% { background-image: linear-gradient(90deg, transparent, rgb(59 130 246 / 0.2), transparent); }
+    50% { background-image: linear-gradient(90deg, transparent, rgb(249 115 22 / 0.2), transparent); }
+  }
+  
+  @keyframes dotColor {
+    0%, 100% { background-color: rgb(147 197 253); }
+    50% { background-color: rgb(253 186 116); }
+  }
+  
+  @keyframes textColor {
+    0%, 100% { color: rgb(96 165 250); }
+    50% { color: rgb(251 146 60); }
+  }
+  
+  @keyframes glowColor {
+    0%, 100% { background: radial-gradient(circle, rgb(96 165 250 / 0.1), transparent, transparent); }
+    50% { background: radial-gradient(circle, rgb(251 146 60 / 0.1), transparent, transparent); }
+  }
+  
+  @keyframes particleColor1 {
+    0%, 100% { background-color: rgb(147 197 253); }
+    50% { background-color: rgb(253 186 116); }
+  }
+  
+  @keyframes particleColor2 {
+    0%, 100% { background-color: rgb(59 130 246); }
+    50% { background-color: rgb(249 115 22); }
+  }
+}
+
