@@ -287,7 +287,7 @@ const Contact: React.FC = () => {
           className="text-center pt-16 mt-16 border-t border-dark-700"
         >
           <p className="text-dark-400">
-            © 2024 Jaliya Rukmal Kumarasiri. All rights reserved.
+            © 2025 Jaliya Rukmal Kumarasiri. All rights reserved.
           </p>
         </motion.div>
       </div>
