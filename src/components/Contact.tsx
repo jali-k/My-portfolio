@@ -49,7 +49,11 @@ const Contact: React.FC = () => {
       href: "https://wa.me/94766934563",
       label: "WhatsApp",
     },
-    { icon: Globe, href: window.location.origin, label: "Website" },
+    {
+      icon: Globe,
+      href: "https://jali-k.github.io/My-portfolio/",
+      label: "Website",
+    },
   ];
 
   const handleInputChange = (
