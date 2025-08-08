@@ -22,7 +22,11 @@ const Hero: React.FC = () => {
       href: "https://wa.me/94766934563",
       icon: MessageCircle,
     },
-    { name: "Website", href: window.location.origin, icon: Globe },
+    {
+      name: "Website",
+      href: "https://jali-k.github.io/My-portfolio/",
+      icon: Globe,
+    },
   ];
 
   return (
